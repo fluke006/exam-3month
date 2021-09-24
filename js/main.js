@@ -13,13 +13,32 @@ function normalizeNull(N){
 
 // Pokemons
 for (var pokemon of pokemons) {
+   // Pokemons
 	var listItem = document.createElement('li');
+
+   // Pokemons' name
 	var itemHeading = document.createElement('h2');
+
+   // Pokemons' image
 	var itemImage = document.createElement('img');
+
+   // Pokemons' info
 	var itemParagraph = document.createElement('p');
+
+   // Pokemons' type 
    var listType = document.createElement('ul');
+
+   // Pokemons' multipliers 
    var listMultipliers = document.createElement('ul');
+
+   // Pokemons' weaknesses
    var listWeaknesses = document.createElement('ul');
+
+   // pokemons' next evolution
+   var listNext = document.createElement('ul');
+
+   // Prev evolution pokemons'
+   var listPrev = document.createElement('ul');
 
 	listItem.setAttribute('class', 'list__item gap-3 p-2 w-25 border');
 
@@ -42,6 +61,10 @@ for (var pokemon of pokemons) {
 
    listWeaknesses.setAttribute('class', 'weaknesses__list  nav flex-column  m-0 mx-auto p-0 w-50');
 
+   listNext.setAttribute('class', 'next__list  nav flex-column  m-0 mx-auto p-0 w-50');
+
+   listPrev.setAttribute('class', 'prev__list  nav flex-column  m-0 mx-auto p-0 w-50')
+
    // Name pokemons'
 	itemHeading.textContent = pokemon.name;
 
@@ -53,6 +76,12 @@ for (var pokemon of pokemons) {
 
    //Multipliers pokemons'
    listMultipliers.textContent = `Multipliers: `
+
+   //Next evolution pokemons'
+   listNext.textContent = 'Next evolution: '
+
+   //Prev evolution pokemons'
+   listPrev.textContent = 'Next evolution: '
 
    // Type pokemons'
    for (var type of pokemon.type) {
@@ -94,6 +123,32 @@ for (var pokemon of pokemons) {
       listWeaknesses.appendChild(itemWeaknesses);
    }
 
+   // Next evolution pokemons'
+   // for (var nextEvolution of pokemon.next_evolution) {
+
+   //  var itemNext = document.createElement('li');
+    
+   //  itemNext.setAttribute('class', 'next__item  mx-auto p-0 text-center');
+
+   //  itemNext.textContent = nextEvolution
+
+   //  listNext.appendChild(itemNext);
+      
+   // }
+
+   // Prev evolution pokemons'
+   // for (var prevEvolution of pokemon.prev_evolution) {
+
+   //  var itemPrev = document.createElement('li');
+    
+   //  itemPrev.setAttribute('class', 'prev__item  mx-auto p-0 text-center');
+
+   //  itemPrev.textContent = prevEvolution
+
+   //  listPrev.appendChild(itemPrev);
+      
+   // }
+
    // Info pokemons'
 	itemParagraph.innerHTML =
 		`Num: ` +
@@ -132,7 +187,11 @@ for (var pokemon of pokemons) {
    // Multipliers pokemons'
    itemParagraph.appendChild(listMultipliers);
 
+   //Next evolution pokemons'
+   // itemParagraph.appendChild(nextEvolution);
    
+   //Prev evolution pokemons'
+   // itemParagraph.appendChild(prevEvolution);
    
    // Image pokemons'
    listItem.appendChild(itemImage);
