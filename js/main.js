@@ -1,5 +1,7 @@
 var elList = document.querySelector('.hero__list');
 
+
+// Null
 function normalizeNull(N){
 
    if( N === null){
@@ -9,6 +11,7 @@ function normalizeNull(N){
    }
 }
 
+// Pokemons
 for (var pokemon of pokemons) {
 	var listItem = document.createElement('li');
 	var itemHeading = document.createElement('h2');
@@ -39,14 +42,19 @@ for (var pokemon of pokemons) {
 
    listWeaknesses.setAttribute('class', 'weaknesses__list  nav flex-column  m-0 mx-auto p-0 w-50');
 
+   // Name pokemons'
 	itemHeading.textContent = pokemon.name;
 
+   // Type pokemons'
    listType.textContent = `Type: `;
    
+   // Weaknesses pokemons'
    listWeaknesses.textContent = `Weaknesses: `;
 
+   //Multipliers pokemons'
    listMultipliers.textContent = `Multipliers: `
 
+   // Type pokemons'
    for (var type of pokemon.type) {
 
      
@@ -59,6 +67,8 @@ for (var pokemon of pokemons) {
       listType.appendChild(itemType);
    }
 
+
+   // Multiplier pokemons'
    for (var multiplier of pokemon.multipliers) {
 
       var itemMultipliers = document.createElement('li');
@@ -71,6 +81,8 @@ for (var pokemon of pokemons) {
       
    }  
 
+
+   // Weaknesses pokemons'
    for (var weaknesses of pokemon.weaknesses) {
 
       var itemWeaknesses = document.createElement('li');
@@ -82,7 +94,7 @@ for (var pokemon of pokemons) {
       listWeaknesses.appendChild(itemWeaknesses);
    }
 
-
+   // Info pokemons'
 	itemParagraph.innerHTML =
 		`Num: ` +
 		pokemon.num +
@@ -111,14 +123,26 @@ for (var pokemon of pokemons) {
       `Spawn time: ` +
       pokemon.spawn_time;
 
-
+   // Type pokemons'
    itemParagraph.appendChild(listType);
+   
+   //Weaknesses pokemons'
    itemParagraph.appendChild(listWeaknesses);
+
+   // Multipliers pokemons'
    itemParagraph.appendChild(listMultipliers);
+
+   
+   
+   // Image pokemons'
    listItem.appendChild(itemImage);
+
+   // Name pokemons'
 	listItem.appendChild(itemHeading);
+
+   // Info pokemons'
 	listItem.appendChild(itemParagraph);
 
-
+   // ALL result
 	elList.appendChild(listItem);
 }
