@@ -1,5 +1,14 @@
 var elList = document.querySelector('.hero__list');
 
+function normalizeNull(N){
+
+   if( N === null){
+      return 'No'
+   }else{
+      return N
+   }
+}
+
 for (var pokemon of pokemons) {
 	var listItem = document.createElement('li');
 	var itemHeading = document.createElement('h2');
@@ -26,9 +35,9 @@ for (var pokemon of pokemons) {
 
    listType.setAttribute('class', 'type__list  nav flex-column  m-0 mx-auto p-0 w-50 text-center');
 
-   listMultipliers.setAttribute('class', 'multipliers__list  nav  m-0 mx-auto p-0 w-50');
+   listMultipliers.setAttribute('class', 'multipliers__list  nav flex-column  m-0 mx-auto p-0 w-50');
 
-   listWeaknesses.setAttribute('class', 'multipliers__list  nav flex-column  m-0 mx-auto p-0 w-50');
+   listWeaknesses.setAttribute('class', 'weaknesses__list  nav flex-column  m-0 mx-auto p-0 w-50');
 
 	itemHeading.textContent = pokemon.name;
 
@@ -50,17 +59,17 @@ for (var pokemon of pokemons) {
       listType.appendChild(itemType);
    }
 
-   // for (var multipliers of pokemon.multipliers) {
+   for (var multiplier of pokemon.multipliers) {
 
-   //    var itemMultipliers = document.createElement('li');
+      var itemMultipliers = document.createElement('li');
      
-   //    itemMultipliers.setAttribute('class', 'multipliers__item  px-1  text-center');
+      itemMultipliers.setAttribute('class', 'multipliers__item  p-0  text-center');
       
-   //    itemMultipliers.textContent = multipliers;
+      itemMultipliers.textContent = normalizeNull(multiplier);
 
-   //    listMultipliers.appendChild(itemMultipliers);
+      listMultipliers.appendChild(itemMultipliers);
       
-   // }  
+   }  
 
    for (var weaknesses of pokemon.weaknesses) {
 
@@ -71,8 +80,6 @@ for (var pokemon of pokemons) {
       itemWeaknesses.textContent = weaknesses
 
       listWeaknesses.appendChild(itemWeaknesses);
-
-      
    }
 
 

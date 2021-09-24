@@ -68,7 +68,7 @@ var pokemons = [
 		spawn_chance: 0.017,
 		avg_spawns: 1.7,
 		spawn_time: '11:30',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'],
 		prev_evolution: [
 			{
@@ -150,7 +150,7 @@ var pokemons = [
 		spawn_chance: 0.0031,
 		avg_spawns: 0.31,
 		spawn_time: '13:34',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Electric', 'Rock'],
 		prev_evolution: [
 			{
@@ -232,7 +232,7 @@ var pokemons = [
 		spawn_chance: 0.0067,
 		avg_spawns: 0.67,
 		spawn_time: '00:06',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass'],
 		prev_evolution: [
 			{
@@ -314,7 +314,7 @@ var pokemons = [
 		spawn_chance: 0.022,
 		avg_spawns: 2.2,
 		spawn_time: '05:23',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Electric', 'Ice', 'Flying', 'Rock'],
 		prev_evolution: [
 			{
@@ -396,7 +396,7 @@ var pokemons = [
 		spawn_chance: 0.051,
 		avg_spawns: 5.1,
 		spawn_time: '04:50',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Flying', 'Psychic', 'Rock'],
 		prev_evolution: [
 			{
@@ -478,7 +478,7 @@ var pokemons = [
 		spawn_chance: 0.13,
 		avg_spawns: 13,
 		spawn_time: '01:50',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Rock'],
 		prev_evolution: [
 			{
@@ -527,7 +527,7 @@ var pokemons = [
 		spawn_chance: 0.41,
 		avg_spawns: 41,
 		spawn_time: '01:56',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 		prev_evolution: [
 			{
@@ -572,7 +572,7 @@ var pokemons = [
 		spawn_chance: 0.15,
 		avg_spawns: 15,
 		spawn_time: '01:11',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Rock'],
 		prev_evolution: [
 			{
@@ -617,7 +617,7 @@ var pokemons = [
 		spawn_chance: 0.072,
 		avg_spawns: 7.2,
 		spawn_time: '01:50',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground', 'Psychic'],
 		prev_evolution: [
 			{
@@ -662,7 +662,7 @@ var pokemons = [
 		spawn_chance: 0.0076,
 		avg_spawns: 0.76,
 		spawn_time: '23:58',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground'],
 		prev_evolution: [
 			{
@@ -707,7 +707,7 @@ var pokemons = [
 		spawn_chance: 0.037,
 		avg_spawns: 3.7,
 		spawn_time: '12:34',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Grass', 'Ice'],
 		prev_evolution: [
 			{
@@ -785,7 +785,7 @@ var pokemons = [
 		spawn_chance: 0.012,
 		avg_spawns: 1.2,
 		spawn_time: '12:35',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Ice', 'Ground', 'Psychic'],
 		prev_evolution: [
 			{
@@ -867,7 +867,7 @@ var pokemons = [
 		spawn_chance: 0.017,
 		avg_spawns: 1.7,
 		spawn_time: '12:16',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Ice', 'Ground', 'Psychic'],
 		prev_evolution: [
 			{
@@ -916,7 +916,7 @@ var pokemons = [
 		spawn_chance: 0.012,
 		avg_spawns: 1.2,
 		spawn_time: '03:29',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 		prev_evolution: [
 			{
@@ -961,7 +961,7 @@ var pokemons = [
 		spawn_chance: 0.0077,
 		avg_spawns: 0.77,
 		spawn_time: '01:32',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Ground', 'Rock'],
 		prev_evolution: [
 			{
@@ -1006,7 +1006,7 @@ var pokemons = [
 		spawn_chance: 0.018,
 		avg_spawns: 1.8,
 		spawn_time: '12:28',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 		prev_evolution: [
 			{
@@ -1051,7 +1051,7 @@ var pokemons = [
 		spawn_chance: 0.42,
 		avg_spawns: 42,
 		spawn_time: '02:15',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Ice', 'Psychic', 'Rock'],
 		prev_evolution: [
 			{
@@ -1129,7 +1129,7 @@ var pokemons = [
 		spawn_chance: 0.0097,
 		avg_spawns: 0.97,
 		spawn_time: '23:58',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'],
 		prev_evolution: [
 			{
@@ -1178,7 +1178,7 @@ var pokemons = [
 		spawn_chance: 0.074,
 		avg_spawns: 7.4,
 		spawn_time: '01:22',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Ice', 'Poison', 'Flying', 'Bug', 'Rock'],
 		prev_evolution: [
 			{
@@ -1223,7 +1223,7 @@ var pokemons = [
 		spawn_chance: 0.072,
 		avg_spawns: 7.2,
 		spawn_time: '23:40',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Flying', 'Psychic', 'Rock'],
 		prev_evolution: [
 			{
@@ -1268,7 +1268,7 @@ var pokemons = [
 		spawn_chance: 0.014,
 		avg_spawns: 1.4,
 		spawn_time: '12:37',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Grass', 'Ice'],
 		prev_evolution: [
 			{
@@ -1313,7 +1313,7 @@ var pokemons = [
 		spawn_chance: 0.022,
 		avg_spawns: 2.2,
 		spawn_time: '02:44',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 		prev_evolution: [
 			{
@@ -1358,7 +1358,7 @@ var pokemons = [
 		spawn_chance: 0.087,
 		avg_spawns: 8.7,
 		spawn_time: '23:06',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass'],
 		prev_evolution: [
 			{
@@ -1403,7 +1403,7 @@ var pokemons = [
 		spawn_chance: 0.031,
 		avg_spawns: 3.1,
 		spawn_time: '12:33',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Flying', 'Psychic', 'Fairy'],
 		prev_evolution: [
 			{
@@ -1448,7 +1448,7 @@ var pokemons = [
 		spawn_chance: 0.017,
 		avg_spawns: 1.7,
 		spawn_time: '03:11',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Ground', 'Rock'],
 		prev_evolution: [
 			{
@@ -1526,7 +1526,7 @@ var pokemons = [
 		spawn_chance: 0.011,
 		avg_spawns: 1.1,
 		spawn_time: '01:32',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Flying', 'Psychic', 'Fairy'],
 		prev_evolution: [
 			{
@@ -1608,7 +1608,7 @@ var pokemons = [
 		spawn_chance: 0.0073,
 		avg_spawns: 0.73,
 		spawn_time: '12:33',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Bug', 'Ghost', 'Dark'],
 		prev_evolution: [
 			{
@@ -1690,7 +1690,7 @@ var pokemons = [
 		spawn_chance: 0.0068,
 		avg_spawns: 0.68,
 		spawn_time: '02:55',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Flying', 'Psychic', 'Fairy'],
 		prev_evolution: [
 			{
@@ -1772,7 +1772,7 @@ var pokemons = [
 		spawn_chance: 0.0059,
 		avg_spawns: 0.59,
 		spawn_time: '12:19',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Ice', 'Flying', 'Psychic'],
 		prev_evolution: [
 			{
@@ -1821,7 +1821,7 @@ var pokemons = [
 		spawn_chance: 0.082,
 		avg_spawns: 8.2,
 		spawn_time: '23:36',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Ground', 'Psychic'],
 		prev_evolution: [
 			{
@@ -1899,7 +1899,7 @@ var pokemons = [
 		spawn_chance: 0.0047,
 		avg_spawns: 0.47,
 		spawn_time: '12:16',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Grass', 'Ice', 'Fighting', 'Ground', 'Steel'],
 		prev_evolution: [
 			{
@@ -1948,7 +1948,7 @@ var pokemons = [
 		spawn_chance: 0.011,
 		avg_spawns: 1.1,
 		spawn_time: '04:00',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Ground', 'Rock'],
 		prev_evolution: [
 			{
@@ -1993,7 +1993,7 @@ var pokemons = [
 		spawn_chance: 0.036,
 		avg_spawns: 3.6,
 		spawn_time: '02:56',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Bug', 'Ghost', 'Dark'],
 		prev_evolution: [
 			{
@@ -2038,7 +2038,7 @@ var pokemons = [
 		spawn_chance: 0.023,
 		avg_spawns: 2.3,
 		spawn_time: '15:25',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Water', 'Ground'],
 		prev_evolution: [
 			{
@@ -2060,7 +2060,7 @@ var pokemons = [
 		spawn_chance: 0.0212,
 		avg_spawns: 2.12,
 		spawn_time: '01:09',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Rock'],
 	},
 	{
@@ -2099,7 +2099,7 @@ var pokemons = [
 		spawn_chance: 0.22,
 		avg_spawns: 22,
 		spawn_time: '02:12',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Rock'],
 		prev_evolution: [
 			{
@@ -2144,7 +2144,7 @@ var pokemons = [
 		spawn_chance: 0.013,
 		avg_spawns: 1.3,
 		spawn_time: '06:04',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Fighting', 'Rock'],
 		prev_evolution: [
 			{
@@ -2189,7 +2189,7 @@ var pokemons = [
 		spawn_chance: 0.0031,
 		avg_spawns: 0.31,
 		spawn_time: '01:28',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground', 'Psychic'],
 		prev_evolution: [
 			{
@@ -2234,7 +2234,7 @@ var pokemons = [
 		spawn_chance: 0.015,
 		avg_spawns: 1.5,
 		spawn_time: '02:33',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Fighting', 'Rock'],
 		prev_evolution: [
 			{
@@ -2312,7 +2312,7 @@ var pokemons = [
 		spawn_chance: 0.0067,
 		avg_spawns: 0.67,
 		spawn_time: '03:55',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground', 'Psychic', 'Ghost', 'Dark'],
 		prev_evolution: [
 			{
@@ -2338,7 +2338,7 @@ var pokemons = [
 		spawn_chance: 0.1,
 		avg_spawns: 10,
 		spawn_time: '01:18',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Grass', 'Ice', 'Fighting', 'Ground', 'Steel'],
 	},
 	{
@@ -2377,7 +2377,7 @@ var pokemons = [
 		spawn_chance: 0.1,
 		avg_spawns: 10,
 		spawn_time: '02:17',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Bug', 'Ghost', 'Dark'],
 		prev_evolution: [
 			{
@@ -2422,7 +2422,7 @@ var pokemons = [
 		spawn_chance: 0.062,
 		avg_spawns: 6.2,
 		spawn_time: '03:44',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass'],
 		prev_evolution: [
 			{
@@ -2467,7 +2467,7 @@ var pokemons = [
 		spawn_chance: 0.02,
 		avg_spawns: 2,
 		spawn_time: '04:10',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground'],
 		prev_evolution: [
 			{
@@ -2512,7 +2512,7 @@ var pokemons = [
 		spawn_chance: 0.014,
 		avg_spawns: 1.4,
 		spawn_time: '12:34',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Ice', 'Poison', 'Flying', 'Bug', 'Ghost', 'Dark'],
 		prev_evolution: [
 			{
@@ -2557,7 +2557,7 @@ var pokemons = [
 		spawn_chance: 0.02,
 		avg_spawns: 2,
 		spawn_time: '03:59',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Grass', 'Ice'],
 		prev_evolution: [
 			{
@@ -2579,7 +2579,7 @@ var pokemons = [
 		spawn_chance: 0.02,
 		avg_spawns: 2,
 		spawn_time: '03:59',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Flying', 'Psychic', 'Fairy'],
 	},
 	{
@@ -2595,7 +2595,7 @@ var pokemons = [
 		spawn_chance: 0.022,
 		avg_spawns: 2.2,
 		spawn_time: '05:58',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Flying', 'Psychic', 'Fairy'],
 	},
 	{
@@ -2611,7 +2611,7 @@ var pokemons = [
 		spawn_chance: 0.011,
 		avg_spawns: 1.1,
 		spawn_time: '02:46',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 	},
 	{
@@ -2650,7 +2650,7 @@ var pokemons = [
 		spawn_chance: 0.016,
 		avg_spawns: 1.6,
 		spawn_time: '12:17',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground', 'Psychic'],
 		prev_evolution: [
 			{
@@ -2695,7 +2695,7 @@ var pokemons = [
 		spawn_chance: 0.022,
 		avg_spawns: 2.2,
 		spawn_time: '05:50',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Grass', 'Ice', 'Fighting', 'Ground', 'Steel'],
 		prev_evolution: [
 			{
@@ -2717,7 +2717,7 @@ var pokemons = [
 		spawn_chance: 0.013,
 		avg_spawns: 1.3,
 		spawn_time: '04:46',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 	},
 	{
@@ -2733,7 +2733,7 @@ var pokemons = [
 		spawn_chance: 0.228,
 		avg_spawns: 22.8,
 		spawn_time: '23:13',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Ice', 'Poison', 'Flying', 'Bug'],
 	},
 	{
@@ -2749,7 +2749,7 @@ var pokemons = [
 		spawn_chance: 0.0086,
 		avg_spawns: 0.86,
 		spawn_time: '02:40',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 	},
 	{
@@ -2788,7 +2788,7 @@ var pokemons = [
 		spawn_chance: 0.034,
 		avg_spawns: 3.4,
 		spawn_time: '03:18',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass'],
 		prev_evolution: [
 			{
@@ -2833,7 +2833,7 @@ var pokemons = [
 		spawn_chance: 0.08,
 		avg_spawns: 8,
 		spawn_time: '05:21',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass'],
 		prev_evolution: [
 			{
@@ -2878,7 +2878,7 @@ var pokemons = [
 		spawn_chance: 0.034,
 		avg_spawns: 3.4,
 		spawn_time: '06:57',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Bug', 'Ghost', 'Dark'],
 		prev_evolution: [
 			{
@@ -2900,7 +2900,7 @@ var pokemons = [
 		spawn_chance: 0.0031,
 		avg_spawns: 0.31,
 		spawn_time: '01:51',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Bug', 'Ghost', 'Dark'],
 	},
 	{
@@ -2916,7 +2916,7 @@ var pokemons = [
 		spawn_chance: 0.14,
 		avg_spawns: 14,
 		spawn_time: '05:43',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Electric', 'Ice', 'Flying', 'Rock'],
 	},
 	{
@@ -2932,7 +2932,7 @@ var pokemons = [
 		spawn_chance: 0.35,
 		avg_spawns: 35,
 		spawn_time: '05:41',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Bug', 'Rock', 'Ghost', 'Dark', 'Steel'],
 	},
 	{
@@ -2948,7 +2948,7 @@ var pokemons = [
 		spawn_chance: 0.074,
 		avg_spawns: 7.4,
 		spawn_time: '04:28',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground'],
 	},
 	{
@@ -2964,7 +2964,7 @@ var pokemons = [
 		spawn_chance: 0.1,
 		avg_spawns: 10,
 		spawn_time: '20:36',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Ground', 'Rock'],
 	},
 	{
@@ -2980,7 +2980,7 @@ var pokemons = [
 		spawn_chance: 0.99,
 		avg_spawns: 99,
 		spawn_time: '03:25',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Flying', 'Rock'],
 	},
 	{
@@ -2996,7 +2996,7 @@ var pokemons = [
 		spawn_chance: 0.12,
 		avg_spawns: 12,
 		spawn_time: '00:37',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 	},
 	{
@@ -3035,7 +3035,7 @@ var pokemons = [
 		spawn_chance: 0.0032,
 		avg_spawns: 0.32,
 		spawn_time: '02:15',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Rock'],
 		prev_evolution: [
 			{
@@ -3057,7 +3057,7 @@ var pokemons = [
 		spawn_chance: 0.006,
 		avg_spawns: 0.6,
 		spawn_time: '08:59',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Fighting', 'Rock'],
 	},
 	{
@@ -3073,7 +3073,7 @@ var pokemons = [
 		spawn_chance: 0,
 		avg_spawns: 0,
 		spawn_time: 'N/A',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 	},
 	{
@@ -3120,7 +3120,7 @@ var pokemons = [
 		spawn_chance: 0.014,
 		avg_spawns: 1.4,
 		spawn_time: '10:54',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass'],
 		prev_evolution: [
 			{
@@ -3142,7 +3142,7 @@ var pokemons = [
 		spawn_chance: 0.012,
 		avg_spawns: 1.2,
 		spawn_time: '02:30',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ground'],
 		prev_evolution: [
 			{
@@ -3164,7 +3164,7 @@ var pokemons = [
 		spawn_chance: 0.017,
 		avg_spawns: 1.7,
 		spawn_time: '07:02',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Ground', 'Rock'],
 		prev_evolution: [
 			{
@@ -3186,7 +3186,7 @@ var pokemons = [
 		spawn_chance: 0.012,
 		avg_spawns: 1.2,
 		spawn_time: '02:49',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 	},
 	{
@@ -3225,7 +3225,7 @@ var pokemons = [
 		spawn_chance: 0.0061,
 		avg_spawns: 0.61,
 		spawn_time: '05:04',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Fighting', 'Ground'],
 		prev_evolution: [
 			{
@@ -3270,7 +3270,7 @@ var pokemons = [
 		spawn_chance: 0.0032,
 		avg_spawns: 0.32,
 		spawn_time: '23:40',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Electric', 'Grass', 'Fighting', 'Ground'],
 		prev_evolution: [
 			{
@@ -3292,7 +3292,7 @@ var pokemons = [
 		spawn_chance: 0.018,
 		avg_spawns: 1.8,
 		spawn_time: '23:40',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Electric', 'Ice', 'Rock', 'Steel'],
 	},
 	{
@@ -3308,7 +3308,7 @@ var pokemons = [
 		spawn_chance: 0.016,
 		avg_spawns: 1.6,
 		spawn_time: '23:40',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fighting'],
 	},
 	{
@@ -3324,7 +3324,7 @@ var pokemons = [
 		spawn_chance: 0,
 		avg_spawns: 0,
 		spawn_time: 'N/A',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Fire', 'Electric', 'Rock', 'Steel'],
 	},
 	{
@@ -3340,7 +3340,7 @@ var pokemons = [
 		spawn_chance: 0,
 		avg_spawns: 0,
 		spawn_time: 'N/A',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ice', 'Rock'],
 	},
 	{
@@ -3356,7 +3356,7 @@ var pokemons = [
 		spawn_chance: 0,
 		avg_spawns: 0,
 		spawn_time: 'N/A',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Water', 'Electric', 'Rock'],
 	},
 	{
@@ -3428,7 +3428,7 @@ var pokemons = [
 		spawn_chance: 0.0011,
 		avg_spawns: 0.11,
 		spawn_time: '23:38',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Ice', 'Rock', 'Dragon', 'Fairy'],
 		prev_evolution: [
 			{
@@ -3454,12 +3454,12 @@ var pokemons = [
 		spawn_chance: 0,
 		avg_spawns: 0,
 		spawn_time: 'N/A',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Bug', 'Ghost', 'Dark'],
 	},
 	{
 		id: 151,
-		num: '151',
+		num: '151',	
 		name: 'Mew',
 		img: 'http://www.serebii.net/pokemongo/pokemon/151.png',
 		type: ['Psychic'],
@@ -3470,7 +3470,7 @@ var pokemons = [
 		spawn_chance: 0,
 		avg_spawns: 0,
 		spawn_time: 'N/A',
-		multipliers: null,
+		multipliers: [null],
 		weaknesses: ['Bug', 'Ghost', 'Dark'],
 	},
 ];
