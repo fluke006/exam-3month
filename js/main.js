@@ -24,22 +24,28 @@ for (var pokemon of pokemons) {
 
 	itemParagraph.setAttribute('class', 'item__info p-1 text-center mb-2 text-body');
 
-   listType.setAttribute('class', 'type__list  nav flex-column m-0 mx-auto p-0 w-50');
+   listType.setAttribute('class', 'type__list  nav flex-column  m-0 mx-auto p-0 w-50 text-center');
 
-   listMultipliers.setAttribute('class', 'multipliers__list  nav flex-column m-0 mx-auto p-0 w-50');
+   listMultipliers.setAttribute('class', 'multipliers__list  nav  m-0 mx-auto p-0 w-50');
 
-   listWeaknesses.setAttribute('class', 'multipliers__list  nav flex-column m-0 mx-auto p-0 w-50');
+   listWeaknesses.setAttribute('class', 'multipliers__list  nav flex-column  m-0 mx-auto p-0 w-50');
 
 	itemHeading.textContent = pokemon.name;
+
+   listType.textContent = `Type: `;
+   
+   listWeaknesses.textContent = `Weaknesses: `;
+
+   listMultipliers.textContent = `Multipliers: `
 
    for (var type of pokemon.type) {
 
      
       var itemType = document.createElement('li');
 
-      itemType.setAttribute('class', 'type__item mx-auto p-0 text-center');
+      itemType.setAttribute('class', 'type__item  p-0 text-center');
 
-      itemType.textContent = `Type: ` + type;
+      itemType.textContent = type;
       
       listType.appendChild(itemType);
    }
@@ -48,9 +54,9 @@ for (var pokemon of pokemons) {
 
    //    var itemMultipliers = document.createElement('li');
      
-   //    itemMultipliers.setAttribute('class', 'multipliers__item mx-auto p-0 text-center');
+   //    itemMultipliers.setAttribute('class', 'multipliers__item  px-1  text-center');
       
-   //    itemMultipliers.textContent = `Multipliers: ` + multipliers;
+   //    itemMultipliers.textContent = multipliers;
 
    //    listMultipliers.appendChild(itemMultipliers);
       
@@ -62,7 +68,7 @@ for (var pokemon of pokemons) {
 
       itemWeaknesses.setAttribute('class', 'wealnesses__item mx-auto p-0 text-center');
 
-      itemWeaknesses.textContent = `Weaknesses: ` + weaknesses
+      itemWeaknesses.textContent = weaknesses
 
       listWeaknesses.appendChild(itemWeaknesses);
 
@@ -101,6 +107,7 @@ for (var pokemon of pokemons) {
 
    itemParagraph.appendChild(listType);
    itemParagraph.appendChild(listWeaknesses);
+   itemParagraph.appendChild(listMultipliers);
    listItem.appendChild(itemImage);
 	listItem.appendChild(itemHeading);
 	listItem.appendChild(itemParagraph);
